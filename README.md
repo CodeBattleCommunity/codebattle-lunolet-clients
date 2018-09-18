@@ -17,3 +17,10 @@
 - Java - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleJava 
 - JavaScript - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleJS
 - C# - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleNet
+
+### Правила игры
+- http://server.codebattle.ru:8080/codebattle/resources/help/lunolet.html
+
+### Сервер
+- http://server.codebattle.ru:8080/codebattle
+
