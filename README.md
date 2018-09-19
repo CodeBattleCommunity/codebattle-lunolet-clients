@@ -7,22 +7,20 @@
 - `code` - автоматически сгенерированный код. Виден в query parameters в адресной строке браузера *(после регистрации)*
 
 В нашем случае мы используем сервер `http://server.codebattle.ru:8080/codebattle`
-${server_host} = server.codebattle.ru
-${server_port} = 8080
+- ${server_host} = server.codebattle.ru
+- ${server_port} = 8080
 
 После подключения, клиент через вебсокет будет регулярно (каждую секунду) получать строку символов с закодированным состоянием игрового поля. 
 Более подробно с правилами игры можно ознакомиться на [странице](Rules.md)
 
 ## 
 
-
 #### Примеры клиентов (ботов)
 - Java - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleJava 
 - JavaScript - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleJS
 - C# - https://github.com/IzhevskCodeBattle/codebattle-lunolet-clients/tree/master/CodeBattleNet
 
-### Правила игры
-- [Правила](Rules.md)
+### [Правила игры](Rules.md)
 
 ### Сервер
 - http://server.codebattle.ru:8080/codebattle
