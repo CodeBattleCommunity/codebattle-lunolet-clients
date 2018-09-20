@@ -6,9 +6,9 @@
 - `email` - email, указанынй при регистрации
 - `code` - автоматически сгенерированный код. Виден в query parameters в адресной строке браузера *(после регистрации)*
 
-В нашем случае мы используем сервер `http://server.codebattle.ru:8080/codebattle`
+В нашем случае мы используем сервер `http://server.codebattle.ru/codebattle`
 - ${server_host} = server.codebattle.ru
-- ${server_port} = 8080
+- ${server_port} = 80
 
 После подключения, клиент через вебсокет будет регулярно (каждую секунду) получать строку символов с закодированным состоянием игрового поля. 
 Более подробно с правилами игры можно ознакомиться на [странице](Rules.md)
@@ -23,5 +23,5 @@
 ### [Правила игры](Rules.md)
 
 ### Сервер
-- http://server.codebattle.ru:8080/codebattle
+- http://server.codebattle.ru/codebattle
 
